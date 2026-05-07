@@ -3,8 +3,8 @@ import { SiteContext } from '../contexts/SiteContext';
 import { data } from '../data';
 
 import profilImg from '../assets/profil.png';
-import githubIcon from '../assets/Github.png';
-import linkedinIcon from '../assets/Linkedin.png';
+import githubIcon from '../assets/github.png';
+import linkedinIcon from '../assets/linkedin.png';
 
 const Hero = () => {
   const { lang } = useContext(SiteContext);
