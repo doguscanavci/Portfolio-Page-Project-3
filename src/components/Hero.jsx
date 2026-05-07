@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { SiteContext } from '../contexts/SiteContext';
 import { data } from '../data';
 
-import profilImg from '../assets/Profil.png';
+import profilImg from '../assets/profil.png';
 import githubIcon from '../assets/Github.png';
 import linkedinIcon from '../assets/Linkedin.png';
 

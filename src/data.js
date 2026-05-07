@@ -12,7 +12,7 @@ export const data = {
         { text: "GitHub", link: "https://github.com/doguscanavci/Capstone-Frontend-Portfolio-Project", icon: "Github.png" },
         { text: "LinkedIn", link: "https://linkedin.com/in/doğuşcan-avcı-b85877324", icon: "Linkedin.png" }
       ],
-      img: "Profil.png"
+      img: "profil.png"
     },
     skills: [
       { name: "JAVASCRIPT", img: "javascript.png" },
@@ -76,7 +76,7 @@ export const data = {
         { text: "GitHub", link: "https://github.com/doguscanavci/Capstone-Frontend-Portfolio-Project", icon: "Github.png" },
         { text: "LinkedIn", link: "https://linkedin.com/in/doğuşcan-avcı-b85877324", icon: "Linkedin.png" }
       ],
-      img: "Profil.png"
+      img: "profil.png"
     },
     yetenekler: [
       { name: "JAVASCRIPT", img: "javascript.png" },
