@@ -43,7 +43,7 @@ export const data = {
           technologies: ["React", "React Router", "Axios", "Cypress", "Tailwind CSS"],
           links: [
             { text: "GitHub", url: "https://github.com/doguscanavci/Pizza-Restaurant-Order-Form-Project-2" },
-            { text: "View Site", url: "#" }
+            { text: "View Site", url: "https://pizza-restaurant-order-form-project.vercel.app/" }
           ]
         },
         {
@@ -52,7 +52,7 @@ export const data = {
           technologies: ["React", "Tailwind CSS", "Redux", "Axios"],
           links: [
             { text: "GitHub", url: "https://github.com/doguscanavci/Capstone-Frontend-Portfolio-Project" },
-            { text: "View Site", url: "#" }
+            { text: "View Site", url: "https://portfolio-page-project-3-crhb.vercel.app" }
           ]
         }
       ]
@@ -107,7 +107,7 @@ export const data = {
           technologies: ["React", "React Router", "Axios", "Cypress", "Tailwind CSS"],
           links: [
             { text: "GitHub", url: "https://github.com/doguscanavci/Pizza-Restaurant-Order-Form-Project-2" },
-            { text: "Siteyi Gör", url: "#" }
+            { text: "Siteyi Gör", url: "https://pizza-restaurant-order-form-project.vercel.app/" }
           ]
         },
         {
@@ -116,7 +116,7 @@ export const data = {
           technologies: ["React", "Tailwind CSS", "Redux", "Axios"],
           links: [
             { text: "GitHub", url: "https://github.com/doguscanavci/Capstone-Frontend-Portfolio-Project" },
-            { text: "Siteyi Gör", url: "#" }
+            { text: "Siteyi Gör", url: "https://portfolio-page-project-3-crhb.vercel.app" }
           ]
         }
       ]
