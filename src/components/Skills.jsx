@@ -9,7 +9,7 @@ const Skills = () => {
     <section className={`w-full py-[80px] border-b transition-colors duration-300 ${
       darkMode ? 'bg-[#1A210B] border-[#BAB2E7]/10' : 'bg-white border-[#BAB2E7]'
     }`}>
-      <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <div className="flex flex-row items-start justify-between">
           {/* ==================================== BAŞLIK ==================================== */} 
           <div className="w-[30%]">
@@ -20,7 +20,7 @@ const Skills = () => {
             </h2>
           </div>
           {/* ==================================== YETENEKLER LİSTESİ ==================================== */}
-          <div className="w-[70%] grid grid-cols-2 gap-x-[120px] gap-y-[60px] mt-[50px]">
+          <div className="w-[90%] grid grid-cols-2 gap-x-[120px] gap-y-[60px] mt-[50px]">
             {content.skills.map((skill) => (
               <div key={skill.name} className="flex items-center gap-12">
                 <div className="w-[120px] h-[120px] flex-shrink-0 mr-[40px]">

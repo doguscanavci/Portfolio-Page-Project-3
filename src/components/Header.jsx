@@ -8,12 +8,12 @@ const Header = () => {
     <header className="flex justify-between items-center w-full relative z-50">
       
       {/* ========================== SOL BÖLÜM // İSİM ========================== */}
-      <div className="font-[700] text-[40px] text-[#CBF281] font-inter mt-[60px] md:mt-8">
+      <div className="font-[700] text-[30px] text-[#CBF281] font-inter mt-[60px] md:mt-8">
         Doğuşcan
       </div>
 
       {/* ========================== SAĞ BÖLÜM // DİL VE TEMA ========================== */}
-      <div className="flex items-center justify-center gap-[30px] w-[43%] md:w-[30%] min-w-max">
+      <div className="flex items-center justify-center gap-[30px] w-[45%] md:w-[30%] min-w-max">
         
         {/* Dil */}
         <button

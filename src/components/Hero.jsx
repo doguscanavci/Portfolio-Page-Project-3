@@ -23,11 +23,11 @@ const Hero = () => {
       <div className="flex justify-between items-start">
         <div className="flex flex-col gap-[35px]">
           {/* ==================================== BAŞLIK ==================================== */} 
-          <h1 className="text-[72px] font-[700] leading-[1.1] text-[#CBF281] m-0 font-inter antialiased">
+          <h1 className="text-[60px] font-[700] leading-[1.1] text-[#CBF281] m-0 font-inter antialiased">
             {titleParts[0]?.trim()} <br /> {separator}
           </h1>
           {/* ==================================== AÇIKLAMA ==================================== */}
-          <p className="text-white font-normal text-[32px] leading-[1.5] m-0 font-inter antialiased max-w-[820px]">
+          <p className="text-white font-normal text-[26px] leading-[1.5] m-0 font-inter antialiased max-w-[820px]">
             {heroData.description}
           </p>
           {/* ==================================== LİNK BUTONLARI ==================================== */}
@@ -43,7 +43,7 @@ const Hero = () => {
                 <img 
                   src={btn.text === "GitHub" ? githubIcon : linkedinIcon} 
                   alt={btn.text} 
-                  className="w-[40px] h-[40px] object-contain block" 
+                  className="w-[30px] h-[30px] rounded-[14px] object-contain block" 
                 />
                 <span className="leading-none">{btn.text}</span>
               </a>
@@ -51,7 +51,7 @@ const Hero = () => {
           </div>
         </div>
         {/* ==================================== GÖRSEL ALANI ==================================== */}
-        <div className="relative w-[375px] h-[400px] shrink-0 translate-x-[-200px] translate-y-[60px]">
+        <div className="relative w-[350px] h-[375px] shrink-0 translate-x-[-120px] translate-y-[40px]">
           <img 
             src={profilImg} 
             alt="Profile"

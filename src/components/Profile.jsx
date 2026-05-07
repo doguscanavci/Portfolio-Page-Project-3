@@ -9,12 +9,12 @@ const Profile = () => {
   return (
     <section className={`w-full pt-[40px] pb-[80px] ${darkMode ? 'bg-[#171043]' : 'bg-[#4731D3]'}`}>
       {/* ==================================== BAŞLIK ==================================== */}
-      <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <h2 className="text-[64px] font-bold text-[#CBF281] mb-[60px] font-inter tracking-tight">
           {content.profile.title}
         </h2>
         {/* ==================================== TEMEL BİLGİLER ==================================== */}  
-        <div className="grid grid-cols-[1.1fr_450px_1.3fr] gap-[100px] items-start">
+        <div className="grid grid-cols-[1.1fr_450px_1.3fr] gap-[50px] items-start">
           <div className="flex flex-col gap-[15px]">
             <h3 className="text-[36px] text-white mb-[25px] font-medium font-inter leading-none -mt-[8px]">
               {content.profile.basicInfoTitle}
@@ -35,10 +35,10 @@ const Profile = () => {
           </div>
           {/* ==================================== HAKKIMDA YAZISI ==================================== */} 
           <div className="flex flex-col pl-[60px]"> 
-            <h3 className="text-[36px] text-white mb-[25px] font-medium font-inter leading-none -mt-[8px]">
+            <h3 className="text-[36px] text-white mb-[10px] font-medium font-inter leading-none -mt-[4px]">
               {content.profile.aboutTitle}
             </h3>
-            <p className="text-white text-[22px] leading-[1.6] font-light opacity-95 max-w-[450px]">
+            <p className="text-white text-[22px] leading-[1.6] font-light opacity-95 max-w-[750px]">
               {content.profile.description}
             </p>
           </div>

@@ -15,7 +15,7 @@ const Projects = () => {
       darkMode ? 'bg-[#1A210B]' : 'bg-[#CBF281]'
     }`}>
       {/* ==================================== TEMAYA GÖRE DÜZENLEME ==================================== */}
-      <div className="max-w-[1700px] mx-auto px-6 lg:px-12">
+      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
         <h2 className={`text-[60px] font-extrabold mb-[60px] font-inter tracking-tight ${
           darkMode ? 'text-[#CBF281]' : 'text-[#4731D3]'
         }`}>
@@ -33,7 +33,7 @@ const Projects = () => {
               }`}
             >
               {/* ==================================== PROJE GÖRSELLERİ ==================================== */}
-              <div className="flex-shrink-0 w-2/5 relative min-h-[400px]">
+              <div className="flex-shrink-0 w-2/5 relative min-h-[100px]">
                 <img 
                   src={projectImages[index]} 
                   alt={project.title} 

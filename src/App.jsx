@@ -31,10 +31,10 @@ function App() {
           <div className={`w-[70%] h-full ${darkMode ? 'bg-[#171043]' : 'bg-[#4731D3]'}`}></div>
           <div className={`w-[30%] h-full ${darkMode ? 'bg-[#1a103d]' : 'bg-[#CBF281]'}`}></div>
         </div>
-          <div className="relative z-10 w-full max-w-[1700px] mx-auto px-6 md:px-20 lg:px-32 pt-[40px]">
+          <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-20 lg:px-32 pt-[40px]">
             <Header />
           </div>
-          <div className="relative z-10 w-full max-w-[1700px] mx-auto px-6 md:px-20 lg:px-32 pt-[100px]">
+          <div className="relative z-10 w-full max-w-[1400px] mx-auto px-6 md:px-20 lg:px-32 pt-[100px]">
             <Hero />
           </div>
         </div>
