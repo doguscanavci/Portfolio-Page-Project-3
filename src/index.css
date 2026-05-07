@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #4731D3;
+  --color-primary-light: #8F88FF;
+  --color-primary-dark: #171043;
+  --color-white: #ffffff;
+  /* Alternatif olarak değişken tanımlayabilirsin */
+  --font-inter: "Inter", sans-serif;
+}
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+/* Sayfanın dışındaki tüm istenmeyen boşlukları kaldırır */
+html, body, #root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+  /* Buraya da ekleyerek işi sağlama alıyoruz */
+  font-family: "Inter", sans-serif;
+}
