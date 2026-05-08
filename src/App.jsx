@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 import axios from 'axios';
 
 function App() {
-  const { darkMode, content, lang } = useContext(SiteContext); // content ve lang alındı
+  const { darkMode, content, lang } = useContext(SiteContext);
 
   useEffect(() => {
     axios.post('https://reqres.in/api/workintech', content)

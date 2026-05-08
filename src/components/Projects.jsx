@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { SiteContext } from '../contexts/SiteContext';
 import pizzaImg from '../assets/pizza.png'; 
-import portfolioImg from '../assets/portfolio.png'; // Yeni görseli import ettik
+import portfolioImg from '../assets/portfolio.png';
 
 const Projects = () => {
   const { content, darkMode } = useContext(SiteContext);
