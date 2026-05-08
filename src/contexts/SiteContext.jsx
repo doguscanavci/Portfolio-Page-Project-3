@@ -9,8 +9,6 @@ function SiteContextProvider({ children }) {
 
   const rawData = data[lang] || data['en'];
 
-  // MERKEZİ DÜZENLEME: 
-  // Componentler 'skills' dediğinde eğer o yoksa 'yetenekler'i getir diyoruz.
   const content = {
     ...rawData,
     skills: rawData.skills || rawData.yetenekler,
